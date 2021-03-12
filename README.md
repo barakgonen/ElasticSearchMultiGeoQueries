@@ -1,4 +1,4 @@
-# elasticSearchMultiGeoQueries
+# ElasticSearchMultiGeoQueries
 R&amp;D for using Elasticsearch
 
 
