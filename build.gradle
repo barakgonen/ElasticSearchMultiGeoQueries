@@ -7,8 +7,18 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    mavenCentral {
+        'https://repo1.maven.org/maven2/'
+    }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch
+    implementation group: 'org.elasticsearch', name: 'elasticsearch', version: '7.11.1'
+    // https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api
+    compileOnly group: 'javax.websocket', name: 'javax.websocket-api', version: '1.1'
+// https://mvnrepository.com/artifact/org.glassfish.tyrus/tyrus-server
+    implementation group: 'org.glassfish.tyrus', name: 'tyrus-server', version: '2.0.0'
+
 }

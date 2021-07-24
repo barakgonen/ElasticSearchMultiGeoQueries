@@ -47,4 +47,4 @@ hs_err_pid*
 compose/data**/
 build/
 out/
-.gradle/**
+.gradle/
