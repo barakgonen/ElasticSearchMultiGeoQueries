@@ -45,3 +45,6 @@ hs_err_pid*
 .idea/**/libraries
 
 compose/data**/
+build/
+out/
+.gradle/**
